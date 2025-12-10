@@ -1,8 +1,8 @@
 function App(){
-  const name = "John";
-    return (
-  <div> 
-    <p>Name is : {name}</p>
+  const x = true;
+    return ( 
+  <div>
+    <p>{x.toString()}</p>
 </div>
 )
 }
